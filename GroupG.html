@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GroupG</title>
+        <link rel="stylesheet" href="GroupG.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-fre
+        e@5.15.3/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    </head>
+    <body>
+  <section class="header">
+<nav>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-time" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="portfolio.html">PORTFOLIO</a></li>
+            <li><a href="">CONTACT US</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="hideMenu()"></i>
+</nav>
+<div class="text-box">
+    <h1>Software Engineering  Group G</h1>
+    <p>SENG project designed by Group G members using HTML, CSS and Javascript.</p>
+    <a href="" class="hero-btn">Click to Know More</a>
+</div>
+  </section>
+  <!----course-->
+  <section class="members">
+       <h1>Our Participants</h1>
+       <p>this is how we participated in the project</p>
+       <div class="row">
+       <div class="members-col">
+             <h3>Maxwell Ebirim</h3>
+             <p>Created the Home and About Page with the use of HTML, CSS and a bit of Javascript.</p>
+           </div>
+           <div class="members-col">
+            <h3>Busari Ayodele</h3>
+            <p>The Group leader. Created the Contact page, and organized the group work.</p>
+          </div>
+          <div class="members-col">
+            <h3>Chamberline</h3>
+            <p>Nothing mucch to write here, stil waiting for content.</p>
+          </div>
+         </div>  
+  </section>
+
+
+
+<!----Javascript for Toggle Menu----->
+  <script>
+      var navlinks = document.getElementById("navLinks");
+      function showMenu(){
+          navLinks.style.right = "0";
+      }
+      function showMenu(){
+          navlinks.style.right = "-200px";
+      }
+  </script>
+    </body>
+</html>
