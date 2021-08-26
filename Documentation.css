@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    color: white;
+}
+#header{
+    padding: 5px;
+    font-family:cursive;
+    font-size: 300%;
+    position: relative;
+
+}
+#text{
+    font-family: serif;
+    font-size: larger;
+}
+a:hover{color: red;}
+.link{
+    padding: 7px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    left: 70%;
+    position: relative;
+}
